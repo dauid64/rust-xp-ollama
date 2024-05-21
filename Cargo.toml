@@ -12,7 +12,7 @@ unused = "allow"
 tokio = { version = "1", features = ["full"]}
 futures = "0.3"
 # -- Ollama
-ollama-rs = "0.1"
+ollama-rs = { version = "0.1", features = ["stream"]}
 # -- Files
 simple-fs = { version = "0.1", features = ["full"]}
 # -- Others

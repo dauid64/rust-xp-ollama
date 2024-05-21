@@ -1,8 +1,8 @@
 pub type Result<T> = core::result::Result<T, Error>;
 pub type Error = Box<dyn std::error::Error>; // For early dev.
 
-mod consts {
-    pub const MODEL: &str = "mixtral";
+pub mod consts {
+    pub const MODEL: &str = "llama3:latest";
 
     pub const DEFAULT_SYSTEM_MOCK: &str = r#"
     Always be very concise in your answer.
